@@ -1,0 +1,12 @@
+CREATE DATABASE db_absensi;
+
+USE db_absensi;
+
+CREATE TABLE mahasiswa (
+  id INT(11) AUTO_INCREMENT PRIMARY KEY,
+  nama VARCHAR(100) NOT NULL,
+  nim VARCHAR(50) NOT NULL,
+  prodi VARCHAR(100) NOT NULL,
+  jam_hadir DATETIME NOT NULL,
+  foto VARCHAR(255)
+);
